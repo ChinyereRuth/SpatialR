@@ -61,3 +61,6 @@ CanDEM <- raster("/Users/chinyereottah/Desktop/Mac/SpatialR/data-raw/CanDEM.tif"
 # Save the raster object as an RData file
 save(CanDEM, file = "CanDEM.RData")
 
+
+library(roxygen2)
+roxygen2::roxygenise()
