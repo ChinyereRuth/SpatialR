@@ -62,6 +62,14 @@ plot(slope_raster, main="Slope")
 plot(aspect_raster, main="Aspect")
 
 # Run the following function to create the documentation; the documentation goes in folder `/man`.
+
+## add roxygenise
+
+library(roxygen2)
+roxygen2::roxygenise()
+
+
+
 devtools::document()
 
 # As you add data and/or functions to your package you need to re-run `devtools::document()` to update the documentation.

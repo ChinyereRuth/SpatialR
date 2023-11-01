@@ -1,13 +1,11 @@
 Package: SpatialR
-Title: Spatial analysis in R
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Chinyere", "Ottah", , "chinyere.ottah@example.com", role = c("aut", "cre"),
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Creating surface analysis in R using DEM
+Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/ChinyereRuth/SpatialR
-BugReports: https://github.com/ChinyereRuth/SpatialR/issues
